@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/PN-Regular.otf');
+}
+@font-face {
+    font-family: 'Proxima-Semibold';
+    src: url('../fonts/PN-Semibold.otf');
+}
+
+body {
+	margin: 0;
+	font-family: 'Proxima', 'Helvetica', 'sans-serif';
+	line-height: 1.33;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.header {
+	height: 84px;
+	background: #ffffff;
+	box-shadow: 0px 2px 4px 0px rgba(104,104,104,0.20);
+	border-bottom: 2px solid #D8D8D8;
+}
+
+.header-logo {
+	width: 183px;
+	height: 100%;
+}
+
+.header-search {
+	height: 40px;
+	width: 684px;
+	position: absolute;
+	top: 22px;
+	right: 36px;
+}
+
+.main {
+	width: 800px;
+	height: 1000px;
+	margin: 40px auto;
+}
+
+.main-content {
+	width: 518px;
+	float: left;
+	margin-top: 32px;
+}
+
+.main-bio {
+	width: 100%;
+	background: red;
+}
+
+.bio-picture {
+	width: 160px;
+	float: left;
+}
+
+.bio-text {
+	float: left;
+	margin-left: 20px;
+	width: 338px;
+}
+
+.bio-text-subtitle {
+	font-size: 18px;
+	font-family: 'Proxima-Semibold';
+	padding-top: 14px;
+}
+
+.bio-text-title {
+	font-size: 36px;
+	font-family: 'Proxima-Semibold';
+}
+
+.bio-blurb {
+	font-size: 15px;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 44px;
+}
+
+.main-text-title {
+	font-size: 18px;
+	font-family: 'Proxima-Semibold';
+}
+
+.main-text-description {
+	font-size: 15px;
+}
+
+.main-sidebar {
+	width: 250px;
+	float: right;
+	margin-top: 32px;
+}
+
+.sidebar-buy {
+	border: 2px solid #D8D8D8;
+	border-radius: 3px;
+	margin-bottom: 32px;
+	background: #ffffff;
+	padding: 28px 24px 32px;
+}
+
+.main-media {
+	clear: both;
+	padding: 56px 0;
+
+}
+
+
