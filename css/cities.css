@@ -48,10 +48,20 @@ header.carousel .fill {
     background-color: #FF6A4B;
 }
 
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/PN-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima-Semibold';
+    src: url('../fonts/PN-Semibold.otf');
+}
+
 .all {
     width: 800px;
     margin: 0 auto;
-    font-family: proxima-nova, sans-serif;
+    font-family: "Proxima", sans-serif;
 }
 
 #title {

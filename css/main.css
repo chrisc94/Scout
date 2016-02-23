@@ -12,8 +12,18 @@ body {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/PN-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima-Semibold';
+    src: url('../fonts/PN-Semibold.otf');
+}
+
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Proxima";
 }
 
 .text-vertical-center {
